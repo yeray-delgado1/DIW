@@ -1,0 +1,87 @@
+body {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin-left: 5%;
+    width: 90%;
+    border: 1px solid blue;
+    display: flex;
+}
+
+main {
+    width: 70%;
+    border: 1px solid brown;
+    margin: 2em 0 2em 2em;
+    
+}
+
+.img-container img {
+    width: 100%;
+}
+
+article {
+    padding: 0;
+    border: 1px solid purple;
+    margin: 2em;
+}
+
+article h2 {
+    border: 1px solid green;
+    font-weight: 200;
+    margin: 1em;
+    color: rgb(137, 172, 184);
+}
+
+article p {
+    margin: 1.6em;
+    line-height: 1.5em;
+    border: 1px solid green;
+}
+
+aside {
+    width: 30%;
+    border: 1px solid green;
+    margin: 2em 2em 2em 0;
+    text-align: center;
+}
+
+.menu {
+    margin: 15% 15% 0px 15%;
+    width: 70%;
+    background-color: rgb(56, 56, 247);
+    color: white;
+}
+
+.menu:hover {
+    transition: ease 0.2s;
+    background-color: lightblue;
+}
+
+.menu h2 {
+    padding: 3px;
+    font-weight: 100;
+}
+
+#menu {
+    border: 2px solid red;
+    width: 100%;
+    padding: 22px;
+    position: absolute;
+background-color: cyan;
+}
+
+#menu a {
+    padding-right: 20px;
+}
+
+#el1 {
+    position: fixed;
+    border: solid 2px darkgreen;
+    border-radius: 30px;
+    background-color: lightgreen;
+    left: 30px;
+    bottom: 30px;
+}
