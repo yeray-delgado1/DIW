@@ -1,0 +1,393 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+ }
+div:nth-child(1) {
+    background-color: rgb(131, 134, 136);
+}
+div:nth-child(2) {
+    background-color: aqua;
+}
+div:nth-child(3) {
+    background-color: blue;
+}
+div:nth-child(4) {
+    background-color: green;
+}
+div:nth-child(5) {
+    background-color: black;
+}
+div:nth-child(6) {
+    background-color: rgb(131, 134, 136);
+}
+div:nth-child(7) {
+    background-color: aqua;
+}
+div:nth-child(8) {
+    background-color: blue;
+}
+div:nth-child(9) {
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* Exercici 1 */
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* Exercici 2 */
+.container1 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+}
+
+/* Exercici 3 */
+.container2 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+}
+.container2 div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Exercici 4 */
+.container3 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.container3 div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Exercici 5 */
+.container4 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    grid-template-rows: auto 300px auto;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.container4 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 6 */
+.container5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto 300px auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+}
+.container5 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container5 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 7 */
+.container6 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto 300px auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container6 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container6 div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.container6 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 8 */
+.container7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container7 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container7 div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.container7 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 9 */
+.container8 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container8 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container8 div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.container8 div:nth-child(9) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.container8 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 9.1 */
+.container9 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container9 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container9 div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.container9 div:nth-child(9) {
+    grid-column: span 4;
+}
+
+.container9 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 10 */
+.container10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container10 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container10 div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.container10 div:nth-child(3) {
+    grid-row: span 3;
+}
+
+.container10 div:nth-child(9) {
+    grid-column: span 4;
+}
+
+.container10 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 11 */
+.container11 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container11 div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container11 div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.container11 div:nth-child(3) {
+    grid-row: span 3;
+}
+
+.container11 div:nth-child(8) {
+    grid-column: span 2;
+}
+
+.container11 div:nth-child(7) {
+    grid-row: span 2;
+}
+
+
+.container11 div:nth-child(9) {
+    grid-column: span 4;
+}
+
+.container11 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 12 */
+.container12 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container12 div:nth-child(1) {
+    grid-column: span 2;
+}
+
+.container12 div:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 2;
+
+}
+.container12 div:nth-child(3) {
+    grid-row: span 3;
+}
+
+.container12 div:nth-child(8) {
+    grid-column: span 2;
+}
+
+.container12 div:nth-child(7) {
+    grid-row: span 2;
+}
+
+
+.container12 div:nth-child(9) {
+    grid-column: span 4;
+}
+
+.container12 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Exercici 13 */
+.container13 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px; 
+
+}
+.container13 div:nth-child(1) {
+    grid-area: 1 / 1 / 1 / span 2; 
+}
+
+.container13 div:nth-child(2) {
+    grid-area: 1 / 3 / span 2 / span 2;
+}
+.container13 div:nth-child(3) {
+    grid-area: 2 / 1 / span 3 / 1;
+}
+
+.container13 div:nth-child(8) {
+    grid-area: 4 / 2 / 4 / span 2;
+}
+
+.container13 div:nth-child(7) {
+    grid-area: 3 / 4 / span 2 / 4;
+}
+
+
+.container13 div:nth-child(9) {
+    grid-area: 5 / 1 / 5 / span 4;
+}
+
+.container13 div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
